@@ -118,6 +118,14 @@ python main.py
 
 ---
 
-### 10) Sample Prompt which invokes both the tools
+### 10) Sample Prompts which invokes both the tools
 
-find the most bizarre food combinations that actually taste good and email them to me with the subject 'Food Fusion Fiasco!' Add a fun note: 'Time to spice up your taste buds!'" to <email_id>
+1) find the most bizarre food combinations that actually taste good and email them with the subject 'Food Fusion Fiasco!' Add a fun note: 'Time to spice up your taste buds!'" to <email_id>
+
+2) Find the funniest quotes from comedians and email with the subject 'Comedy Gold!' Add a personal note: 'Get ready to laugh out loud!' to <email_id>.
+
+3) Search for the weirdest facts about space and email with the subject 'Cosmic Curiosities!' Add a fun note: 'Prepare to have your mind blown!' to <email_id>.
+
+4) Find the top 5 unusual travel destinations and email them with the subject 'Offbeat Adventures!' Add a fun note: 'Time to start planning your next getaway!' to <email_id>
+
+
