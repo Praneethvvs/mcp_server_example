@@ -114,3 +114,6 @@ python main.py
 
 ---
 
+### 10) Sample Prompt which invokes both the tools
+
+find the most bizarre food combinations that actually taste good and email them to me with the subject 'Food Fusion Fiasco!' Add a fun note: 'Time to spice up your taste buds!'" to <email_id>
