@@ -81,20 +81,22 @@ You need to configure the environment variables for both the server and client. 
 - `GEMINI_API_KEY` — Free API key from Google AI Studio.
 - `BRAVE_API_KEY` — Free API key from Brave Search.
 - `GMAIL_APP_PASSWORD` — Generated app password (not your Gmail password).
+- `SENDER_EMAIL` -  Email address of the sender(the account for which you created the gmail_app_password).
 
-Refer to the project documentation for detailed instructions on how to get these keys.
 
-### 7) Install the MCP server
 
-Install the MCP server globally:
+### 7) Install the Brave Search MCP server
+
+Install the MCP server. This will be called by the mcp_client using STDIO
 
 ```bash
 npm install -g @modelcontextprotocol/server-brave-search
 ```
 
+
 ### 8) Run the server
 
-Start the MCP server by running the following command in the `mcp_server` directory:
+Start the MCP server by running the following command in the `mcp_server` directory. This will be called by the mcp_client using SSE
 
 ```bash
 cd mcp_server
@@ -111,11 +113,4 @@ python main.py
 ```
 
 ---
-
-### Additional Information
-
-- The server uses **SSE** (Server-Sent Events) to handle real-time data transfer and communication.
-- The MCP framework is used to create seamless interactions between your AI models and third-party data sources like Brave Search.
-
-For more details on using the project and extending the MCP framework, please refer to the documentation.
 
