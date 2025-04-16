@@ -1,7 +1,7 @@
 
 # mcp_server_example
 
-This project demonstrates the implementation of a custom **MCP server** using **Pydantic AI** and integrates third-party services like **Brave Search** with **Server-Sent Events (SSE)**. Follow the steps below to set up and run the project.
+This project demonstrates the implementation of building a custom MCP client-server solution, the client is developed using the Pydantic AI Framework, and it interacts with Brave Search MCP Server and a custom Send_Email server, all powered by the Gemini-2.0-Flash LLM. This approach eliminates the need for pre-built solutions like Claude Desktop, offering full flexibility and control over the client-server integration.
 
 
 ## Prerequisites
