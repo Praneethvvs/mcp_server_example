@@ -120,6 +120,8 @@ python main.py
 
 ### 10) Sample Prompts which invokes both the tools
 
+VERY IMPORTANT NOTE: Conversational Memory is not yet implemented and the context is not passed between messages, so if you want to invoke multiple tools, make sure to provide full context in the same message.
+
 1) find the most bizarre food combinations that actually taste good and email them with the subject 'Food Fusion Fiasco!' Add a fun note: 'Time to spice up your taste buds!'" to <email_id>
 
 2) Find the funniest quotes from comedians and email with the subject 'Comedy Gold!' Add a personal note: 'Get ready to laugh out loud!' to <email_id>.
